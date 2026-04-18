@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Profesional – Celso Manuel González Collado</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            background: #f7f9fc;
+            color: #2b2b2b;
+        }
+
+        h1, h2, h3 {
+            font-weight: 600;
+            color: #1a365d;
+        }
+
+        h2 {
+            border-bottom: 2px solid #1a365d;
+            padding-bottom: 6px;
+            margin-top: 50px;
+        }
+
+        p, li {
+            line-height: 1.6;
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 260px;
+            height: 100%;
+            background: #1a365d;
+            color: white;
+            padding: 40px 25px;
+            box-sizing: border-box;
+            border-right: 3px solid #0f223d;
+        }
+
+        .sidebar h2 {
+            margin-top: 0;
+            font-size: 22px;
+            letter-spacing: 0.5px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #d7e6ff;
+            text-decoration: none;
+            margin: 14px 0;
+            font-size: 16px;
+            padding: 6px 0;
+            transition: 0.2s;
+        }
+
+        .sidebar a:hover {
+            color: #ffffff;
+            padding-left: 4px;
+        }
+
+        /* Main content */
+        .content {
+            margin-left: 300px;
+            padding: 50px;
+            max-width: 900px;
+        }
+
+        /* Cards */
+        .section-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 40px;
+        }
+
+        /* Word-like bullet style */
+        .word-bullets {
+            list-style-type: "• ";
+            padding-left: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+                border-right: none;
+            }
+            .content {
+                margin-left: 0;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <a href="#cover">Carta de Presentación</a>
+    <a href="#cv">Curriculum Vitae</a>
+    <a href="#degrees">Formación</a>
+    <a href="#certifications">Certificados</a>
+</div>
+
+<!-- Main Content -->
+<div class="content">
+
+<!-- HEADER WITH PHOTO -->
+<div style="
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+">
+    <img src="foto.jpg" alt="Profile Photo" style="
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    ">
+
+    <div>
+        <h1 style="margin: 0; font-size: 32px; color: #1a365d;">
+            Celso Manuel González Collado
+        </h1>
+        <p style="margin: 6px 0 0 0; font-size: 16px; color: #444;">
+            Físico · Científico Computacional · Ingeniero HPC
+        </p>
+    </div>
+</div>
+
+<!-- DOWNLOAD BUTTONS -->
+<div style="
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+">
+    <a href="Carta_presentacion.pdf" download style="
+        background: #1a365d;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 15px;
+    ">Descargar Carta de Presentación (PDF)</a>
+
+    <a href="CV_Celso_Gonzalez_ES.pdf" download style="
+        background: #1a365d;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        border-radius: 6px;
+        margin-right: 15px;
+        font-size: 15px;
+    ">Descargar Curriculum Vitae (PDF)</a>
+
+</div>
+
+    <!-- COVER LETTER SECTION -->
+    <section id="cover" class="section-card">
+        <h2>Carta de Presentación</h2>
+
+        <p>Estimados/as señores/as:</p>
+
+<p>Me dirijo a ustedes para presentar mi candidatura al puesto de Ingeniero de Criptología en el Centro Nacional de Inteligencia. Soy físico especializado en modelización computacional, con formación avanzada en métodos numéricos, desarrollo de software científico y computación de alto rendimiento, y un interés firme en el ámbito de la seguridad de las comunicaciones y la criptología.</p>
+
+<p>Durante mi etapa como investigador predoctoral en la Universidad Autónoma de Madrid, he trabajado en el desarrollo e implementación de modelos computacionales complejos, empleando técnicas avanzadas de programación y sistemas distribuidos. Esta experiencia me ha permitido adquirir una sólida capacidad para el análisis riguroso de algoritmos y la optimización de código en situaciones donde la eficiencia resulta esencial.</p>
+
+<p>Paralelamente, he iniciado una especialización en criptografía aplicada, abordando el estudio de algoritmos de cifrado, funciones hash y mecanismos de autenticación, así como su implementación práctica mediante herramientas como OpenSSL. Este interés responde a mi motivación por aplicar mis competencias adquiridas a problemas reales, así como por contribuir al análisis y fortalecimiento de sistemas de seguridad para la protección de información crítica.</p>
+
+<p>Cabe destacar que aún no dispongo del título de doctorado, aunque la tesis está finalizada, porque me encuentro a la espera de que la universidad asigne una fecha para la defensa. Por otro lado, quiero aclarar que el certificado B2 de inglés que adjunto no refleja completamente mi nivel actual, que estimo avanzado tras la estancia de tres meses que realicé en Stanford University (California, USA).</p>
+        
+<p>Considero que mi perfil combina de forma adecuada una base científica sólida, capacidad analítica y experiencia en entornos tecnológicos complejos, junto con una alta motivación por desarrollar mi carrera en el ámbito de la seguridad y la protección de las comunicaciones. Asimismo, valoro especialmente la responsabilidad, la discreción y el compromiso que requiere el desempeño de funciones en una institución como el Centro Nacional de Inteligencia.</p>
+
+<p>Quedo a su disposición para ampliar cualquier información que estimen oportuna y agradezco de antemano la atención prestada a mi candidatura.</p>
+
+<p>Atentamente,</p>
+
+<p>Celso Manuel González Collado</p>
+
+    </section>
+
+    <!-- CV SECTION -->
+    <section id="cv" class="section-card">
+        <h2>Curriculum Vitae</h2>
+
+        <h3>Resumen</h3>
+        <p>Físico especializado en simulación en óptica y sistemas cuánticos, orientada a I+D en sistemas optoelectrónicos. Trayectoria en desarrollo de modelos numéricos, algoritmos complejos y flujos de trabajo de análisis de datos. Experiencia participando en proyectos multidisciplinares con colaboración internacional y capacidad demostrada en coordinación técnica, planificación de proyectos y transferencia de resultados científicos a software funcional. Interés en sensado cuántico y desarrollo de soluciones avanzadas en entornos de defensa e innovación.</p>
+
+        <h3>Experiencia Profesional</h3>
+        <h3 style="text-align: right;">Científico Computacional 
+        <br style="text-align: right;">Universidad Autónoma de Madrid (UAM) — Febrero 2021 – Presente</h3>
+
+        <ul class="word-bullets">
+            <li>Desarrollo y validación de modelos físicos avanzados de interacción luz-materia y dinámica electrónica y molecular inducida por láser, con aplicación potencial en tecnologías cuánticas.</li>
+
+            <li>Implementación de dichos modelos mediante algoritmos complejos optimizados para entornos de computación de alto rendimiento (HPC), como MareNostrum 5 (BSC) y el Centro de Cálculo Científico de la UAM. Definición de requisitos técnicos y metodologías de simulación para software científico.</li>
+
+            <li>Participación en proyectos de I+D internacionales con equipos multidisciplinares (físicos, químicos e ingenieros), incluyendo una colaboración con Stanford University (California, EE. UU.).  Capacidad demostrada para la gestión técnica y planificación de proyectos.</li>
+
+            <li>Amplia experiencia en entornos Linux, incluyendo el uso de protocolos de comunicación (SSH, SCP) y herramientas esenciales de HPC como SLURM, sistemas de módulos Lmod y bibliotecas de paralelización (MPI, OpenMP), siguiendo las mejores prácticas (por ejemplo, uso de SCRATCH para cargas de trabajo pesadas). Programación en Python, MATLAB/SIMULINK, scripts de Shell y Fortran. Dominio del control de versiones con Git.</li>
+
+            <li>Autor de artículos científicos y ponente en congresos internacionales en Vigo (España) y Washington (EE. UU.), donde fui galardonado por la American Physical Society por mi participación en el APS DAMOP 2023.</li>
+
+            <li>Impartición de diversas asignaturas en las titulaciones de Física y Química de la UAM, entre ellas “Herramientas computacionales para químicos”, “Óptica” y “Laboratorio de Química Física”.</li>
+        </ul>
+
+        <h3>Habilidades Técnicas</h3>
+        <ul>
+            <li><strong>Programación:</strong> Python, Shell Script, Fortran, MATLAB/SIMULINK</li>
+            <li><strong>Sistemas y HPC:</strong> Linux, SLURM, MPI, OpenMP, Git</li>
+            <li><strong>Criptografía y ciberseguridad:</strong> OpenSSL, AES, RSA, DH, SHA-256, firmas y certificados digitales, PKI, TLS, HTTPS</li>
+            <li><strong>Áreas de especialización:</strong> Modelización matemática, simulación y métodos numéricos, optimización de algoritmos complejos, desarrollo de software científico, análisis y procesamiento de datos.</li>
+            <li><strong>Otros:</strong> VSCode, LaTeX, Microsoft Office, Permiso B de conducir</li>
+            <li><strong>Idiomas:</strong> Español (Nativo), Inglés (Avanzado)</li>
+        </ul>
+
+        <h3>Publicaciones Científicas</h3>
+        <ul>
+            <li>J. Delgado, C. M. González-Collado, P. Decleva, A. Palacios & F. Martín, Physical Review A 111, 063107 (2025). DOI: 10.1103/qzg1-2f7n.</li>
+            <li>C. M. González-Collado, L. Cattaneo, E. Plésiat, J. J. Omiste, J. Vos, J. González-Vázquez, P. Decleva, U. Keller, A. Palacios & F. Martín, Physical Review Research 6, 033342 (2024). DOI: 10.1103/PhysRevResearch.6.033342.</li>
+            <li>V. Loriot, A. Boyer, S. Nandi, C. M. González-Collado, E. Plésiat, A. Marciniak, C. L. Garcia, Y. Hu, M. Lara-Astiaso, A. Palacios, P. Decleva, F. Martín & F. Lépine, Nature Physics 20, 765–769 (2024). DOI: 10.1038/s41567-024-02406-2.</li>
+            <li>C. M. González-Collado, E. Plésiat, P. Decleva, A. Palacios & F. Martín, Physical Chemistry Chemical Physics (PCCP) 24, 7700 (2022). DOI: 10.1039/D2CP00627H.</li>
+            
+        </ul>
+    </section>
+
+    <!-- DEGREES SECTION -->
+    <section id="degrees" class="section-card">
+        <h2>Formación</h2>
+
+        <ul>
+            <li><strong>Doctorado en Química Teórica y Modelización Computacional</strong>, Universidad Autónoma de Madrid (Junio 2026)</li>
+            <li><strong>Máster Universitario en Física Teórica </strong>, Universidad Complutense de Madrid (2020) — Nota: 9.39/10</li>
+            <li><strong>Grado en Física </strong>, Universidad Complutense de Madrid (2019) — Nota: 9.22/10</li>
+            <li><strong>Enseñanzas Profesionales de Música (Oboe)</strong>, Conservatorio Joaquín Turina de Madrid (2015)</li>
+        </ul>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="section-card">
+        <h2>Certificados</h2>
+
+        <ul>
+            <li>Encryption and Cryptography Essentials, IBM (2026)</li>
+            <li>M2D School on High-Performance Multilayer Molecular Dynamics Approaches, UAM (2022)</li>
+            <li>European School “Quantum and Mixed Quantum Classical Dynamics in Photochemistry”, ZCAM-Zaragoza (2022)</li>
+        </ul>
+    </section>
+
+</div>
+
+</body>
+</html>
